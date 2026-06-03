@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>A Little Universe</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&family=DM+Serif+Display&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="grain"></div>
+
+<nav class="nav">
+  <div class="nav-logo"><span>✦</span> for you</div>
+  <ul class="nav-links">
+    <li><a href="#hero">intro</a></li>
+    <li><a href="#love">us</a></li>
+    <li><a href="#memories">memories</a></li>
+    <li><a href="#cake">cake</a></li>
+    <li><a href="#badges">badges</a></li>
+    <li><a href="#reasons">reasons</a></li>
+    <li><a href="#timeline">timeline</a></li>
+    <li><a href="#letter">letter</a></li>
+  </ul>
+  <div class="nav-date">06 / 03 / 26</div>
+</nav>
+
+<!-- SECTION 1 — HERO -->
+<section id="hero" class="section hero">
+  <div class="hero-bg">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+  <div class="hero-meta top-left reveal">
+    <span class="dot"></span> chapter 01 — the beginning
+  </div>
+  <div class="hero-meta top-right reveal">a little universe, no.001</div>
+
+  <div class="hero-stack">
+    <p class="kicker reveal">a little universe built for you.</p>
+    <h1 class="hero-title">
+      <span class="line"><em>happy</em></span>
+      <span class="line outline">birthday</span>
+      <span class="line script">to&nbsp;you</span>
+    </h1>
+    <div class="hero-row reveal">
+      <div class="hero-side">est. the day you were born · a private edition</div>
+      <button class="enter-btn" id="enterBtn">
+        <span>enter the universe</span>
+        <span class="arrow">→</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="hero-meta bottom-left reveal">scroll, slowly ↓</div>
+  <div class="hero-meta bottom-right reveal">made by hand · with love</div>
+</section>
+
+<!-- SECTION 2 — LOVE US -->
+<section id="love" class="section love">
+  <div class="love-grid">
+    <div class="love-text">
+      <p class="eyebrow reveal-up">02 — us, an editorial</p>
+      <h2 class="display reveal-up">
+        i <em>love</em><br/>us.
+      </h2>
+      <p class="body reveal-up">two people, one ongoing inside joke, a thousand small tuesdays that turned into something quietly enormous.</p>
+    </div>
+    <div class="love-collage">
+      <figure class="frame f1 float-slow">
+        <img src="images/image1.jpg" alt="us, no.1"/>
+        <figcaption>no. 01 — late july</figcaption>
+      </figure>
+      <figure class="frame f2 float-fast">
+        <img src="images/image2.jpg" alt="us, no.2"/>
+        <figcaption>no. 02 — golden hour</figcaption>
+      </figure>
+      <figure class="frame f3 float-slow">
+        <img src="images/image3.jpg" alt="us, no.3"/>
+        <figcaption>no. 03 — your kitchen</figcaption>
+      </figure>
+      <span class="tape t1"></span>
+      <span class="tape t2"></span>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 3 — MEMORIES -->
+<section id="memories" class="section memories">
+  <div class="section-head">
+    <span class="eyebrow">03 — the memory wall</span>
+    <h2 class="display reveal-up">a wall of <em>small</em> forevers.</h2>
+  </div>
+  <div class="memory-wall">
+    <figure class="mem m1"><img src="images/image4.jpg" alt=""/><figcaption>laughing at nothing</figcaption></figure>
+    <figure class="mem m2"><img src="images/image5.jpg" alt=""/><figcaption>the long drive</figcaption></figure>
+    <figure class="mem m3"><img src="images/image6.jpg" alt=""/><figcaption>that one café</figcaption></figure>
+    <figure class="mem m4"><img src="images/image7.jpg" alt=""/><figcaption>3am, kitchen floor</figcaption></figure>
+    <p class="floating-quote q1">“i'll remember this one forever.”</p>
+    <p class="floating-quote q2">— and i did.</p>
+  </div>
+</section>
+
+<!-- SECTION 4 — VIRTUAL CAKE -->
+<section id="cake-section" class="section cake-section dark">
+  <div class="cake-bg">
+    <div class="blob wine"></div>
+    <div class="blob ember"></div>
+  </div>
+  <div class="cake-wrap">
+    <div class="cake-text">
+      <p class="eyebrow light">04 — the offering</p>
+      <h2 class="display light reveal-up">
+        virtual <em>cake</em>.<br/>
+        calorie&#8209;free.<br/>
+        made with love.
+      </h2>
+      <p class="body light reveal-up">tap the flame. make a wish. (i already made mine.)</p>
+    </div>
+    <div class="cake-stage">
+      <div class="birthday-cake" id="birthdayCake">
+        <div class="candle">
+          <div class="flame" id="flame"></div>
+          <div class="wick"></div>
+          <div class="stick"></div>
+        </div>
+        <div class="layer top"></div>
+        <div class="drip"></div>
+        <div class="layer mid"></div>
+        <div class="layer base"></div>
+        <div class="plate"></div>
+      </div>
+      <button class="ghost-btn" id="blowBtn">blow the candle</button>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 5 — BADGES -->
+<section id="badges" class="section badges">
+  <div class="section-head">
+    <span class="eyebrow">05 — accolades</span>
+    <h2 class="display reveal-up">officially <em>awarded</em>.</h2>
+  </div>
+  <div class="badge-grid">
+    <article class="badge"><div class="badge-num">01</div><h3>best smile</h3><p>category: unfair advantages.</p></article>
+    <article class="badge"><div class="badge-num">02</div><h3>comfort human</h3><p>category: emotional infrastructure.</p></article>
+    <article class="badge"><div class="badge-num">03</div><h3>yapper of the year</h3><p>category: olympic-grade glazing.</p></article>
+    <article class="badge"><div class="badge-num">04</div><h3>safest place</h3><p>category: nowhere else, ever.</p></article>
+    <article class="badge"><div class="badge-num">05</div><h3>favorite notification</h3><p>category: phone lights up, so do i.</p></article>
+  </div>
+</section>
+
+<!-- SECTION 6 — REASONS -->
+<section id="reasons" class="section reasons">
+  <div class="section-head">
+    <span class="eyebrow">06 — a non-exhaustive list</span>
+    <h2 class="display reveal-up">reasons i <em>love</em> you.</h2>
+  </div>
+  <div class="glass-grid">
+    <div class="glass"><span class="g-num">i.</span><p>the way you laugh at your own jokes before finishing them.</p></div>
+    <div class="glass"><span class="g-num">ii.</span><p>how you remember things i forgot i told you.</p></div>
+    <div class="glass"><span class="g-num">iii.</span><p>your handwriting on receipts and napkins.</p></div>
+    <div class="glass"><span class="g-num">iv.</span><p>the soft voice you use for animals and tired people.</p></div>
+    <div class="glass"><span class="g-num">v.</span><p>how you make ordinary rooms feel like somewhere.</p></div>
+    <div class="glass"><span class="g-num">vi.</span><p>that you said yes when it would've been easier not to.</p></div>
+  </div>
+</section>
+
+<!-- SECTION 7 — CHAOS -->
+<section id="chaos" class="section chaos">
+  <div class="chaos-head">
+    <span class="eyebrow">07 — the group chat archive</span>
+    <h2 class="display reveal-up">a little <em>chaos</em>, lovingly preserved.</h2>
+  </div>
+  <div class="chaos-wrap">
+    <figure class="chaos-img c1"><img src="images/image8.jpg" alt=""/></figure>
+    <div class="chat-bubble cb1">"are you up"<span>02:47</span></div>
+    <div class="chat-bubble cb2 me">"unfortunately"<span>02:47</span></div>
+    <div class="chat-bubble cb3">"good. me too."<span>02:48</span></div>
+    <figure class="chaos-img c2"><img src="images/image9.jpg" alt=""/></figure>
+    <div class="chat-bubble cb4 me">"come outside"<span>02:51</span></div>
+    <p class="scribble">— and i did.</p>
+  </div>
+</section>
+
+<!-- SECTION 8 — MUSIC -->
+<section id="music" class="section music dark">
+  <div class="section-head">
+    <span class="eyebrow light">08 — the soundtrack</span>
+    <h2 class="display light reveal-up">our <em>side&nbsp;a</em>.</h2>
+  </div>
+  <div class="player">
+    <div class="vinyl" id="vinyl">
+      <div class="vinyl-label">side a · for you</div>
+    </div>
+    <div class="player-meta">
+      <p class="track-no">track 01</p>
+      <h3 class="track-title">the one that's always playing</h3>
+      <p class="track-artist">— us, on repeat since forever</p>
+      <div class="wave" id="wave"></div>
+      <div class="player-controls">
+        <button class="ghost-btn" id="playBtn">▶ play</button>
+        <span class="time">00:00 / 03:24</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 9 — TIMELINE -->
+<section id="timeline" class="section timeline">
+  <div class="section-head">
+    <span class="eyebrow">09 — a brief history</span>
+    <h2 class="display reveal-up">how we <em>got</em> here.</h2>
+  </div>
+  <ol class="tl">
+    <li class="tl-item"><span class="tl-year">ch.01</span><div><h4>the meeting</h4><p>you walked in, the room rearranged itself, you didn't notice.</p></div></li>
+    <li class="tl-item"><span class="tl-year">ch.02</span><div><h4>the first laugh</h4><p>i decided then. i just didn't tell you for a while.</p></div></li>
+    <li class="tl-item"><span class="tl-year">ch.03</span><div><h4>the long talk</h4><p>3am, kitchen floor, two mugs, a small confession.</p></div></li>
+    <li class="tl-item"><span class="tl-year">ch.04</span><div><h4>the in-between</h4><p>all the tuesdays nobody writes songs about.</p></div></li>
+    <li class="tl-item"><span class="tl-year">ch.05</span><div><h4>today</h4><p>another year of you. easily the best news of the decade.</p></div></li>
+  </ol>
+</section>
+
+<!-- SECTION 10 — PHOTO DUMP -->
+<section id="dump" class="section dump">
+  <div class="section-head">
+    <span class="eyebrow">10 — photo dump</span>
+    <h2 class="display reveal-up">the <em>unedited</em> archive.</h2>
+  </div>
+  <div class="masonry">
+    <figure class="m"><img src="images/image10.jpg" alt=""/></figure>
+    <figure class="m tall"><img src="images/image11.jpg" alt=""/></figure>
+    <figure class="m"><img src="images/image12.jpg" alt=""/></figure>
+    <figure class="m wide"><img src="images/image13.jpg" alt=""/></figure>
+    <figure class="m"><img src="images/image14.jpg" alt=""/></figure>
+    <figure class="m tall"><img src="images/image15.jpg" alt=""/></figure>
+    <figure class="m"><img src="images/image16.jpg" alt=""/></figure>
+    <figure class="m"><img src="images/image17.jpg" alt=""/></figure>
+    <figure class="m wide"><img src="images/image18.jpg" alt=""/></figure>
+  </div>
+</section>
+
+<!-- SECTION 11 — LETTER -->
+<section id="letter" class="section letter">
+  <div class="paper">
+    <p class="paper-meta">11 — a letter, handwritten in pixels</p>
+    <h2 class="paper-title"><em>dear you,</em></h2>
+    <p class="paper-body" id="letterBody"></p>
+    <p class="paper-sign">— always, me. <span class="heart">♡</span></p>
+  </div>
+</section>
+
+<!-- SECTION 12 — FINALE -->
+<section id="finale" class="section finale">
+  <div class="particles" id="particles"></div>
+  <p class="eyebrow reveal-up">12 — the encore</p>
+  <h2 class="finale-title">
+    <span>happy</span>
+    <span class="outline">birthday</span>
+    <span class="script">again.</span>
+  </h2>
+  <p class="finale-sub reveal-up">here's to the next trip around the sun. i'll be the one clapping loudest.</p>
+  <button class="enter-btn" id="replayBtn">
+    <span>play it again</span><span class="arrow">↺</span>
+  </button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
