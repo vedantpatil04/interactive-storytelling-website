@@ -104,12 +104,23 @@ if (wave) {
     wave.appendChild(s);
   }
 }
+const song = document.getElementById('birthdaySong');
+
 let playing = false;
+
 playBtn?.addEventListener('click', () => {
   playing = !playing;
+
   vinyl.classList.toggle('playing', playing);
   wave.classList.toggle('playing', playing);
-  playBtn.textContent = playing ? '❚❚ pause' : '▶ play';
+
+  if (playing) {
+    song.play();
+    playBtn.textContent = '❚❚ pause';
+  } else {
+    song.pause();
+    playBtn.textContent = '▶ play';
+  }
 });
 
 // --- Letter: typewriter on view ---
@@ -180,4 +191,14 @@ window.addEventListener('scroll', () => {
     }
   }
   lastY = y;
+});
+
+// Next section buttons
+document.querySelectorAll('.next-section-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+        const nextId = btn.dataset.next;
+        document.getElementById(nextId)?.scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
 });
