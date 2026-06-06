@@ -491,3 +491,25 @@ button{font:inherit;cursor:pointer;background:none;border:none;color:inherit}
 .finale-title .script{font-style:italic;color:var(--wine);font-size:.7em;margin-top:-.05em}
 .finale-sub{font-family:var(--serif);font-style:italic;font-size:clamp(18px,2vw,24px);max-width:520px;opacity:.75;position:relative;z-index:2}
 #replayBtn{position:relative;z-index:2}
+
+.next-section-btn{
+    position:absolute;
+    bottom:30px;
+    right:40px;
+    padding:14px 24px;
+    border:none;
+    border-radius:999px;
+    background:var(--ink);
+    color:var(--white);
+    font-size:13px;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    cursor:pointer;
+    transition:.3s;
+    z-index:20;
+}
+
+.next-section-btn:hover{
+    transform:translateY(-3px);
+    background:var(--wine);
+}
